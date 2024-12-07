@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '../components/ui/button';
+import Navbar from '@/components/Navbar';
 
 const Login = () => {
   return (
@@ -15,10 +16,8 @@ const Login = () => {
               className="w-20"
             />
           </div>
-
           <h2 className="text-2xl font-semibold text-center text-gray-800">Authenticator</h2>
           <p className="text-center text-sm text-gray-500">Protect your account in just a few minutes by reviewing your security settings and activity.</p>
-
           <div className="mt-6 space-y-4">
             <input type="email" placeholder="Email address" className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
             <input type="password" placeholder="Password" className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
