@@ -1,8 +1,8 @@
-// src/pages/Homepagep.js
 import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import Donations from '@/components/Cardhome/Donations';
+import TopAds from '@/components/Cardhome/TopAds';
 
 const Homepagep = () => {
   return (
@@ -17,9 +17,10 @@ const Homepagep = () => {
         <HeroSection />
       </div>
 
-      {/* Konten lainnya */}
-      <div className="h-[200vh]">
+      {/* Donations dan TopAds tanpa jeda */}
+      <div>
         <Donations />
+        <TopAds />
       </div>
     </div>
   );

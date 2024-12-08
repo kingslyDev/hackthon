@@ -28,7 +28,7 @@ const HeroSection = () => {
             transform: `translateY(${translateYValue}px) scale(${scaleValue})`,
           }}
         >
-          Tabur Tanpa Batas di Seluruh Nusantara
+          Spread Without Limits Across the Nusantara
         </h2>
 
         {/* Call-to-Action Button */}
@@ -40,7 +40,7 @@ const HeroSection = () => {
             pointerEvents: buttonOpacity > 0 ? 'auto' : 'none', // Tidak dapat diklik saat tidak terlihat
           }}
         >
-          Mulai berbagi!
+          Start Sharing!
         </button>
       </div>
     </div>
