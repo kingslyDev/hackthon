@@ -25,8 +25,8 @@ const Navbar = () => {
 
       {/* Sign In Button */}
       <div className="flex items-center gap-3">
-        <a href="/login" className="px-6 py-3 bg-white text-[#5271ff] rounded-full font-semibold hover:bg-[#f0f0f0] transition-colors duration-300">
-          Bergabung
+        <a href="#" className="px-6 py-3 bg-white text-[#5271ff] rounded-full font-semibold hover:bg-[#f0f0f0] transition-colors duration-300">
+          Connect Wallet
         </a>
       </div>
     </nav>

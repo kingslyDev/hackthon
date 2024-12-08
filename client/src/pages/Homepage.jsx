@@ -2,6 +2,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
+import Donations from '@/components/Cardhome/Donations';
 
 const Homepagep = () => {
   return (
@@ -17,7 +18,9 @@ const Homepagep = () => {
       </div>
 
       {/* Konten lainnya */}
-      <div className="h-[200vh]">halo</div>
+      <div className="h-[200vh]">
+        <Donations />
+      </div>
     </div>
   );
 };
