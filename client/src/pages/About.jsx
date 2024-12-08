@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserTie, faBullseye, faCheckCircle } from "@fortawesome/free-solid-svg-icons"; // Pastikan ikon yang digunakan diimpor
+import { faUserTie, faBullseye, faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   return (
@@ -11,19 +11,19 @@ const About = () => {
 
       {/* Hero / Header Section */}
       <section className="text-center py-16 bg-[#e8f0fe] text-gray-800 px-4">
-        <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl font-bold mb-4 text-[#5271ff]">Nusantara Bersama</h1>
-          <p className="leading-relaxed">
+        <div className="max-w-3xl mx-auto animate-fadeIn">
+          <h1 className="text-5xl font-extrabold tracking-tight mb-4 text-[#5271ff]">Nusantara Bersama</h1>
+          <p className="leading-relaxed text-lg tracking-wide">
             Platform Crowdfunding yang berdedikasi untuk menghubungkan para inovator, kreator, dan pemimpin komunitas dengan pendukung yang peduli.
           </p>
         </div>
       </section>
 
-      {/* Images Section with Smooth Blue BG */}
+      {/* Images Section */}
       <section className="py-16 px-4 bg-[#e8f0fe]">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 justify-center items-center">
-            <div className="overflow-hidden mx-auto transform transition-transform duration-500 hover:scale-110 hover:shadow-lg">
+            <div className="overflow-hidden mx-auto transform transition-transform duration-500 hover:scale-105 hover:shadow-lg">
               <img
                 src="src/assets/bansos.png"
                 alt="bansos"
@@ -31,7 +31,7 @@ const About = () => {
                 style={{ width: "300px", height: "200px" }}
               />
             </div>
-            <div className="overflow-hidden mx-auto transform transition-transform duration-500 hover:scale-110 hover:shadow-lg">
+            <div className="overflow-hidden mx-auto transform transition-transform duration-500 hover:scale-105 hover:shadow-lg">
               <img
                 src="src/assets/Nusama1.jpeg"
                 alt="Nusama1"
@@ -39,7 +39,7 @@ const About = () => {
                 style={{ width: "300px", height: "100px" }}
               />
             </div>
-            <div className="overflow-hidden mx-auto transform transition-transform duration-500 hover:scale-110 hover:shadow-lg">
+            <div className="overflow-hidden mx-auto transform transition-transform duration-500 hover:scale-105 hover:shadow-lg">
               <img
                 src="src/assets/fund road.png"
                 alt="bansos"
@@ -47,7 +47,7 @@ const About = () => {
                 style={{ width: "300px", height: "200px" }}
               />
             </div>
-            <div className="overflow-hidden mx-auto transform transition-transform duration-500 hover:scale-110 hover:shadow-lg">
+            <div className="overflow-hidden mx-auto transform transition-transform duration-500 hover:scale-105 hover:shadow-lg">
               <img
                 src="src/assets/galang.png"
                 alt="Nusama1"
@@ -60,16 +60,18 @@ const About = () => {
       </section>
 
       {/* Idea Delivery Section */}
-      <section className="py-16 px-4 bg-[#e8f0fe]">
+      <section className="py-16 px-4 bg-[#e8f0fe] shadow-lg rounded-lg">
         <div className="max-w-5xl mx-auto text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-[#5271ff] text-left">Bantu Mereka yang Berani Bermimpi</h2>
+          <h2 className="text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
+            Bantu Mereka yang Berani Bermimpi
+          </h2>
         </div>
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 text-gray-600 leading-relaxed">
-          <p>
+          <p className="text-lg tracking-wide">
             Dengan teknologi terkini dan semangat kolaborasi, kami mendukung kesuksesan setiap kampanye. Bersama, kita wujudkan ide besar dan perubahan positif,
             membangun komunitas yang kuat dan berdaya.
           </p>
-          <p>
+          <p className="text-lg tracking-wide">
             Misi kami adalah memberikan wadah yang aman dan transparan bagi siapa saja untuk menggalang dana bagi berbagai inisiatif—mulai dari proyek kreatif,
             usaha sosial, hingga program kemanusiaan.
           </p>
@@ -90,10 +92,10 @@ const About = () => {
           </div>
           <div>
             <h2 className="text-3xl font-bold mb-4 text-[#5271ff]">Satu Kontribusi Kecil, Dampak Besar untuk Masa Depan</h2>
-            <p className="text-gray-600 mb-6 leading-relaxed">
-              Bersama, kita bisa membawa perubahan nyata dan memberikan harapan bagi mereka yang membutuhkan
+            <p className="text-gray-600 mb-6 leading-relaxed tracking-wide">
+              Bersama, kita bisa membawa perubahan nyata dan memberikan harapan bagi mereka yang membutuhkan.
             </p>
-            <blockquote className="text-[#FFA726] font-semibold italic border-l-4 border-[#FFA726] pl-4">
+            <blockquote className="text-lg font-semibold italic text-[#FFA726] bg-[#fff6e5] border-l-4 border-[#FFA726] pl-6 py-4 rounded-lg shadow-md">
               "Keberhasilan bukanlah milik orang yang pintar. Keberhasilan adalah kepunyaan mereka yang senantiasa berusaha."
               <br />
               <strong>B.J. Habibie</strong>
@@ -105,15 +107,17 @@ const About = () => {
       {/* Help Businesses Grow Section */}
       <section className="py-16 px-4 bg-[#e8f0fe]">
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-[#5271ff]">We empower communities to thrive together</h2>
-          <p className="text-gray-600 leading-relaxed">
+          <h2 className="text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-400">
+            We empower communities to thrive together
+          </h2>
+          <p className="text-gray-600 leading-relaxed text-lg tracking-wide">
             Bersama, kita mendukung inisiatif sosial yang membawa perubahan nyata bagi masyarakat. Setiap kontribusi Anda membantu menciptakan harapan baru dan
             memperkuat solidaritas komunitas.
           </p>
         </div>
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-12">
           <div className="text-center">
-            <div className="text-[#627eff] text-4xl mb-4">
+            <div className="text-4xl mb-4 text-[#5271ff]">
               <FontAwesomeIcon icon={faUserTie} />
             </div>
             <h3 className="font-semibold text-lg mb-2 text-[#5271ff]">Transparency</h3>
@@ -122,7 +126,7 @@ const About = () => {
             </p>
           </div>
           <div className="text-center">
-            <div className="text-[#627eff] text-4xl mb-4">
+            <div className="text-4xl mb-4 text-[#5271ff]">
               <FontAwesomeIcon icon={faBullseye} />
             </div>
             <h3 className="font-semibold text-lg mb-2 text-[#5271ff]">Trusted</h3>
@@ -131,7 +135,7 @@ const About = () => {
             </p>
           </div>
           <div className="text-center">
-            <div className="text-[#627eff] text-4xl mb-4">
+            <div className="text-4xl mb-4 text-[#5271ff]">
               <FontAwesomeIcon icon={faCheckCircle} />
             </div>
             <h3 className="font-semibold text-lg mb-2 text-[#5271ff]">Professional</h3>
