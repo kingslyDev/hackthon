@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import Donations from '@/components/Cardhome/Donations';
 import TopAds from '@/components/Cardhome/TopAds';
+import PersonalCampign from '@/components/Cardhome/PersonalCampaign';
 
 const Homepagep = () => {
   return (
@@ -21,6 +22,9 @@ const Homepagep = () => {
       <div>
         <Donations />
         <TopAds />
+      </div>
+      <div className="bg-[#627eff]">
+        <PersonalCampign />
       </div>
     </div>
   );

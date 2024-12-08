@@ -13,7 +13,7 @@ const Navbar = () => {
       {/* Navigation Links */}
       <ul className="hidden md:flex items-center gap-8">
         <li className="hover:font-bold hover:text-[#FFC736] transition-all duration-300 text-[#FFC736]">
-          <a href="index.html">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="hover:font-bold hover:text-[#FFC736] transition-all duration-300 text-white">
           <a href="/about">About Us</a>

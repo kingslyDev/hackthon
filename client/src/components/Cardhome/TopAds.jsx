@@ -38,7 +38,7 @@ function TopAds() {
       <h1 className="text-4xl font-bold text-white mt-12">Beyond Expectations</h1>
 
       {/* Cards Container */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 mr-5 ml-5">
         {campaigns.map((campaign, index) => (
           <div key={index} className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center relative">
             {/* Badge for Exceeding Target */}

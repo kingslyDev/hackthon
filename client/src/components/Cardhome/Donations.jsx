@@ -25,9 +25,9 @@ const Donations = () => {
         {/* Feature Cards */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 px-4 sm:px-0">
           {/* Feature Card 1 */}
-          <div className="bg-[#4a90e2] rounded-lg p-6 text-left shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="bg-[#5271ff] rounded-lg p-6 text-left shadow-md hover:shadow-lg transition-shadow duration-300">
             <div className="flex items-center mb-4">
-              <div className="bg-white text-[#4a90e2] p-3 rounded-full">
+              <div className="bg-white text-[#5271ff] p-3 rounded-full">
                 <FaShieldAlt className="w-6 h-6" aria-hidden="true" />
               </div>
               <h4 className="ml-4 text-lg font-semibold">Secure Donations</h4>
@@ -36,9 +36,9 @@ const Donations = () => {
           </div>
 
           {/* Feature Card 2 */}
-          <div className="bg-[#4a90e2] rounded-lg p-6 text-left shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="bg-[#5271ff] rounded-lg p-6 text-left shadow-md hover:shadow-lg transition-shadow duration-300">
             <div className="flex items-center mb-4">
-              <div className="bg-white text-[#4a90e2] p-3 rounded-full">
+              <div className="bg-white text-[#5271ff] p-3 rounded-full">
                 <FaPercent className="w-6 h-6" aria-hidden="true" />
               </div>
               <h4 className="ml-4 text-lg font-semibold">100% Donations Reached</h4>
@@ -47,9 +47,9 @@ const Donations = () => {
           </div>
 
           {/* Feature Card 3 */}
-          <div className="bg-[#4a90e2] rounded-lg p-6 text-left shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="bg-[#5271ff] rounded-lg p-6 text-left shadow-md hover:shadow-lg transition-shadow duration-300">
             <div className="flex items-center mb-4">
-              <div className="bg-white text-[#4a90e2] p-3 rounded-full">
+              <div className="bg-white text-[#5271ff] p-3 rounded-full">
                 <FaHandshake className="w-6 h-6" aria-hidden="true" />
               </div>
               <h4 className="ml-4 text-lg font-semibold">Partnered with 100+ Organizations</h4>
