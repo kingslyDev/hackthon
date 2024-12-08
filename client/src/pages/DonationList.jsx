@@ -14,30 +14,34 @@ export default function DonationList() {
     <div className="min-h-screen bg-gray-50 flex flex-col items-center p-4">
       <h1 className="text-2xl font-bold text-blue-600 mb-6">Donasi (5058)</h1>
       <div className="w-full max-w-2xl bg-white rounded-lg shadow-md p-4">
-        <div className="flex justify-between items-center mb-4">
-          <button className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition">
+        {/* Buttons Section */}
+        <div className="flex justify-center space-x-4 mb-4">
+          <button className="px-6 py-2 text-sm font-medium text-white bg-blue-500 rounded-full shadow-lg hover:bg-blue-600 focus:ring-2 focus:ring-blue-400 transition">
             Terbaru
           </button>
-          <button className="px-4 py-2 bg-gray-200 rounded-lg shadow hover:bg-gray-300 transition">
+          <button className="px-6 py-2 text-sm font-medium text-blue-500 bg-blue-100 rounded-full shadow-lg hover:bg-blue-200 focus:ring-2 focus:ring-blue-400 transition">
             Terbaik
           </button>
         </div>
+        {/* Donations List */}
         <ul>
           {donations.map((donation, index) => (
             <li
               key={index}
-              className="flex items-center space-x-4 py-4 border-b border-gray-200"
+              className="flex items-center justify-between py-4 border-b border-gray-200"
             >
-              <img
-                src={donation.image || "https://via.placeholder.com/50"}
-                alt={donation.name}
-                className="w-12 h-12 rounded-full object-cover"
-              />
-              <div>
-                <p className="text-lg font-semibold">{donation.name}</p>
-                <p className="text-sm text-gray-500">{donation.time}</p>
+              <div className="flex items-center space-x-4">
+                <img
+                  src={donation.image || "https://via.placeholder.com/50"}
+                  alt={donation.name}
+                  className="w-12 h-12 rounded-full object-cover"
+                />
+                <div>
+                  <p className="text-lg font-semibold">{donation.name}</p>
+                  <p className="text-sm text-gray-500">{donation.time}</p>
+                </div>
               </div>
-              <p className="ml-auto font-bold text-blue-600">
+              <p className="font-bold text-blue-600 text-right">
                 {donation.amount}
               </p>
             </li>
