@@ -54,7 +54,7 @@ const DetailDonation = () => {
         {/* Content */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           {/* Main Section */}
-          <section className="md:col-span-8 bg-white rounded-2xl shadow-2xl p-6">
+          <section className="md:col-span-7 bg-white rounded-2xl shadow-2xl p-6">
             <img src={detailimg} alt="Sagaranten Sukabumi" className="w-full h-64 object-cover rounded-xl mb-6 mt-10" />
             <h1 className="text-2xl md:text-3xl font-extrabold text-gray-800 mb-3 leading-snug">PWI Kota Bogor Siap Kirimkan Bantuan untuk Korban Banjir Bandang Sukabumi</h1>
             <p className="text-lg text-gray-600 mb-4">
