@@ -5,6 +5,7 @@ import About from '@/pages/About.jsx';
 import DonationList from '@/pages/DonationList.jsx';
 import Homepage from '@/pages/Homepage.jsx';
 import Detail from '@/pages/Detail/DetailDonation.jsx';
+import Test from '@/pages/Test.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
     path: '/Detail',
     element: <Detail />,
   },
+  {
+    path: '/test',
+    element: <Test/>,
+  }
 ]);
 
 export default router;
