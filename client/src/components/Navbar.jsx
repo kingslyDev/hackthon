@@ -4,7 +4,7 @@ import logo from '../assets/logos/nusantara.svg';
 
 const Navbar = () => {
   return (
-    <nav className="mt-10 mb-1 container max-w-[1130px] mx-auto flex items-center justify-between bg-[#5271ff] p-5 rounded-3xl shadow-md h-28">
+    <nav className="mt-10 mb-1 container max-w-[1130px] mx-auto flex items-center justify-between bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-900 p-5 rounded-3xl shadow-md h-28">
       {/* Logo */}
       <div className="flex-shrink-0">
         <img src={logo} alt="Nusantara Logo" className="w-40 h-40 object-contain rounded-full border-2 border-[#5271ff] shadow-lg" />
