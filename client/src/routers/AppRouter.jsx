@@ -1,9 +1,10 @@
 import { createBrowserRouter } from 'react-router-dom';
 import Login from '../pages/Login.jsx';
 import Register from '@/pages/Register.jsx';
-import About from '@/pages/About.jsx'; 
+import About from '@/pages/About.jsx';
 import DonationList from '@/pages/DonationList.jsx';
 import Homepage from '@/pages/Homepage.jsx';
+import Detail from '@/pages/Detail/DetailDonation.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,13 +21,16 @@ const router = createBrowserRouter([
   },
   {
     path: '/about',
-    element: <About />, 
+    element: <About />,
   },
   {
     path: '/DonationList',
     element: <DonationList />,
-  }
-
+  },
+  {
+    path: '/Detail',
+    element: <Detail />,
+  },
 ]);
 
 export default router;
